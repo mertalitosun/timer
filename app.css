@@ -73,3 +73,16 @@ padding-right: 20px;
 .reset:hover{
     background-color: #A2B5BB;
 }
+
+@media(max-width: 500px){
+    .container{
+        width: 100%;
+    }
+    .clock{
+        width: 100%;
+    }
+    .buton{
+        display: flex;
+        flex-direction: column;
+    }
+}

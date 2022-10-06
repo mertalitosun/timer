@@ -38,6 +38,9 @@ reset.addEventListener("click", ()=>{
     sec.innerHTML = "0" + second;
     min.innerHTML = "0" + minute;
     hrs.innerHTML = "0" + hours;
+    clearInterval(interval);
+    clearInterval(aa);
+    clock.classList.remove("clock-hover");
 })
 
 // timer function
